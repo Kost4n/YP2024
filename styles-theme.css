@@ -45,7 +45,16 @@ img {
 .column p {
     width: 450px;
 }
-
+@media (max-width: 425px) {
+    .column p {
+        width: 300px;
+        font-size: 13px;
+    }
+    .column ul li {
+        font-size: 13px;
+        width: 300px;
+    }
+}
 @media (max-width: 768px) {
     .row {
         flex-direction: column;
