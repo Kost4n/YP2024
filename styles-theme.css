@@ -45,7 +45,7 @@ img {
 .column p {
     width: 450px;
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .column p {
         width: 300px;
         font-size: 13px;
