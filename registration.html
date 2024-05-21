@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-reg.css">
+</head>
+<body>
+    <header>
+        <h3>Регистрация</h3>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.html#news">Новости</a></li>
+                <li><a href="index.html#aboutUs">Отзывы</a></li>
+                <li><a href="course.html">Курс</a></li>
+                <li><a href="profile.html">Профиль</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="heading">
+            <h2>Регистрация</h2>
+        </div>
+        <div class="center">
+            <form id="registrationForm">
+                <input type="text" id="surmame" placeholder="Фамилия" required>
+                <input type="text" id="name" placeholder="Имя" required>
+                <input type="text" id="patronymic" placeholder="Отчество" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="tel" id="number" placeholder="Номер телефона" pattern="^\+7[1-9]{10}$" required>
+                <input type="password" id="password" placeholder="Пароль" required>
+                <input type="password" id="confirmPassword" placeholder="Повторите пароль" required>
+                <button type="submit">Зарегистрироваться</button>
+                <p>Уже имеется аккаунт? <a class="form-a" href="authorization.html">Жми</a></p>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-column">
+            <h2>Практика, 2023</h2>
+        </div>
+        <div class="footer-column">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html#news">Новости</a></li>
+                    <li><a href="profile.html">Профиль</a></li>
+                    <li><a href="index.html#aboutUs">Отзывы</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-column">
+            <h3>Контакты</h3>
+            <p>Телефон: <a href="#">123-456-7890</a></p>
+            <p>Email: <a href="#">info@example.com</a></p>
+        </div>
+        <div class="footer-column">
+            <h3>Правовая документация</h3>
+            <ul>
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li><a href="#">Пользовательское соглашение</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script-reg.js"></script>  
+</body>
+</html>
