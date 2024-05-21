@@ -60,7 +60,7 @@ function adjustSlider() {
     const sliderWidth = slider.offsetWidth;
     const slide1 = slides[0];
     const slide2 = slides[1];
-    if (sliderWidth < 768) {
+    if (sliderWidth < 769) {
         slide1.style.width = '100%';
         slide2.style.width = '0';
         slide2.style.visibility = 'hidden';
