@@ -399,13 +399,20 @@ p a {
     .slide p {
         position: absolute;
         top: 60%;
-        left: 12%;
     }
 }
 
 @media (max-width: 770px) {
     .slide p {
         position: absolute;
+    }
+}
+
+@media (max-width: 430px) {
+    .slide p {
+        font-size: 14px;
+        position: absolute;
+        top: 60%;
     }
 }
 
