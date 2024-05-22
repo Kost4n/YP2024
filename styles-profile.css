@@ -21,6 +21,15 @@
     .profile {
         max-width: 90%;
     }
+    .links {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 380px) {
+    th, td {
+        padding: 0px;
+    }
 }
 
 .row {
