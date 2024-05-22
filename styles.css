@@ -13,14 +13,6 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-  @media(max-width: 426px) {
-    .slide p {
-        width: 220px;
-        top: 50%;
-        left: 22%;
-        font-size: 12px;
-    }
-}
 .b-marquee {
     margin-top: 20px;
     font-family: 'Segoe UI', sans-serif;
@@ -396,11 +388,8 @@ p a {
 
 .slide p {
     color: white;
-    top: 50%;
     position: absolute;
     top: 70%;
-    left: 35%;
-    width: 350px;
     background: #00000094;
     padding: 10px;
     text-align: center;
@@ -417,20 +406,13 @@ p a {
 @media (max-width: 770px) {
     .slide p {
         position: absolute;
-        top: 60%;
-        left: 24%;
-        width: 400px;
-        font-size: 22px;
     }
 }
 
 @media (max-width: 330px) {
     .slide p {
         position: absolute;
-        top: 57%;
-        left: 12%;
-        font-size: 12px;
-        width: 240px;
+        top: 60%;
     }
 }
 
