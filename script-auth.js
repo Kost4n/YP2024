@@ -13,7 +13,7 @@ document.getElementById('password').addEventListener('blur', function (e)
 
 document.getElementById('number').addEventListener('blur', function (e)
 {
-    let pattern_phone = /\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}/;
+    let pattern_phone = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
     let thisValue = e.target.value;
     if (!thisValue || thisValue.match(pattern_phone)) {
         e.target.style.border ='1px solid red';
